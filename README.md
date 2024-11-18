@@ -1,4 +1,4 @@
-# Datathon2024SMU
+# Datathon 2024 SMU
 ## Julian Cabrera and Sebastian Chacon achieved 1st Place representing Traders@SMU
 The SMU Datathon was a 20-hour simulation challenge in which each team is tasked as "Consultants" for XYZ Company to present a thorough Trend Analysis, Abnormality Detection, and pitch actionable insights (via Proof of Concept) for a new product using Health and Fitness datasets. Myself (Julian Cabrera) along with Sebastian Chacon presented "NightHorse Tracker", a new health watch tracker utilizing two Machine Learning models(Unsupervised and Supervised) to gather and interpret health metrics such as Sleep Duration, hours of sleep, steps per day, etc.
 
