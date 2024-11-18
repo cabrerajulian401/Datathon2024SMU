@@ -1,1 +1,9 @@
 # Datathon2024SMU
+## Julian Cabrera and Sebastian Chacon achieved 1st Place representing Traders@SMU
+The SMU Datathon was a 20-hour simulation challenge in which each team is tasked as "Consultants" for XYZ Company to present a thorough Trend Analysis, Abnormality Detection, and pitch actionable insights (via Proof of Concept) for a new product using Health and Fitness datasets. Myself (Julian Cabrera) along with Sebastian Chacon presented "NightHorse Tracker", a new health watch tracker utilizing two Machine Learning models(Unsupervised and Supervised) to gather and interpret health metrics such as Sleep Duration, hours of sleep, steps per day, etc.
+
+Our models consisted of an Isolation Forest that found abnormalities in our data allowing us to plot a boundary curve for non-linear outliers in our data paired with a Gradient Booster, taking 6 inputs to build "profiles" around the trends in people who develop sleep disorders and heart conditions such as AFIB, Sleep Apnea, and Insomnia. Utilizing these models we can ping users with mild-harsh warnings alerting Users of their negative health habits that could develop sleeping disorders and heart conditions
+
+### Insights and going forward:
+
+Through this Project, I (Julian Cabrera) was able to apply techniques learned from Traders@SMU and my role as an AI & Data Science Research assistant at SMU. Given more time for the project, I would love to have larger sample sizes in our data as I believe we could have impelemented better Data Leakage and Overfitting prevention as our model had an incredible prediction accuracy (93%). Our dataset had only 374 samples which is significantly smaller than typical inputs for ML. Additionally, I would've liked to implement Multi-Linear regression to plot exactly the relationship found between Sleep Disorder development from metrics such as Stress Level, Caloric Intake, Fitness levels, etc.
